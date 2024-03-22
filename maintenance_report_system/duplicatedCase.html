@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+    <?!= include('Stylesheet'); ?>
+</head>
+
+<body>
+
+    <p>
+        <h4>
+            以下為重複報修案件，我們將併案處理，謝謝您的回饋。
+        </h4>
+    </p>
+
+    <p>【案件編號】
+        <?= caseNum ?>
+    </p>
+
+    <p>【申請時間】
+        <?= time ?>
+    </p>
+
+    <p>【申請人】
+        <?= applyer ?>
+    </p>
+
+    <p>【申請人mail】
+        <?= email ?>
+    </p>
+
+    <p>【申請人電話】
+        <?= phone ?>
+    </p>
+
+    <p>【問題描述】</p>
+    <?= problem ?>
+</body>
+
+</html>

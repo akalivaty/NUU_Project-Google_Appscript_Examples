@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base target="_top">
+  <?!= include('Stylesheet'); ?>
+</head>
+
+<body>
+  <p>【申請編號】
+    <?= eventSerialNum ?>
+  </p>
+
+  <p>【使用空間】
+    <?= space ?>
+  </p>
+
+  <p>【預計使用開始時間】
+    <?= startTime ?>
+  </p>
+
+  <p>【預計使用結束時間】
+    <?= endTime ?>
+  </p>
+
+  <p>【用途說明】
+    <?= purpose ?>
+  </p>
+
+  <p>【活動名稱】
+    <?= eventName ?>
+  </p>
+  
+
+  <br>
+  <br>
+  <p>若要撤銷申請，請致電037-382501或點選下方按鈕填寫表單</p>
+  <br>
+
+  <a class='btn' href="https://forms.gle/1eqZE2UrzvGe78N49">取消空間申請</a>
+</body>
+
+</html>
